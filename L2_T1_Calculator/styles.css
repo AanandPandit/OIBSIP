@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    background-color: rgba(227, 14, 14, 0.182);
+    border: 2px solid #f50000;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#calcTitle {
+    font-size: 10px;
+    margin: 5px 0;
+    text-align: right;
+    font-style: italic;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: rgb(9, 217, 217);
+    background-color: lightcyan;
+    border: 1px solid rgb(9, 217, 148);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* draws a line between column */
+.screen>div {
+    border-top: 1px solid rgb(133, 40, 40);
+    padding: 5px 0;
+}
+
+#input {
+    font-size: 20px;
+    background-color: lightcyan;
+    border: none;
+    margin: 5px 0;
+    text-align: left;
+}
+
+#result {
+    font-size: 28px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #850a0abb;
+    border-radius: 5px;
+}
+
+#divide {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#multiply {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#subtract {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#add {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#equals {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #d70c0c;
+    border-radius: 5px;
+}
+
+#clear {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#modulus {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#backspace {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e;
+    border-radius: 5px;
+}
+
+#nothing {
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #0b4d9e68;
+    border-radius: 5px;
+}
+
+.history {
+    margin-top: 0px;
+    max-height: 470px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+h2 {
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(80, 238, 7);
+    z-index: 1;
+}
+
+ul {
+    list-style: none;
+    padding: none;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#author {
+    font-size: 9px;
+    margin: 5px 0;
+    text-align: left;
+    font-style: italic;
+}
