@@ -1,2 +1,2 @@
 # OIBSIP
-🚀 Oasis Infobyte: My AI Internship Journey 🤖
+🚀 Oasis Infobyte: My web design Internship Journey 🤖
